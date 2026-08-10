@@ -44,8 +44,8 @@ Place these files under `data/` in the project root before running the notebook.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/niklioni/DataScienceAssessment.git
-cd DataScienceAssessment
+git clone https://github.com/niklioni/football-transfer-analytics.git
+cd football-transfer-analytics
 
 # 2. Install dependencies
 pip install pandas numpy matplotlib scikit-learn jupyter
@@ -59,7 +59,7 @@ jupyter notebook analysis.ipynb
 ## Project Structure
 
 ```
-DataScienceAssessment/
+football-transfer-analytics/
 ├── analysis.ipynb    # Full analysis: cleaning, EDA, and ML
 ├── data/              # transfers.csv, clubs.csv, competitions.csv (not tracked)
 └── README.md
